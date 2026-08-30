@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The personal notebook of Md. Mursalin — backend developer, builder, gamer, and quiet collector of good things.">
+  <title>osihao / notebook</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--
+    Keep this HTML file beside your assets, or update the filenames directly:
+    profile: pfp.png
+    favorite photos: ramen.jpg / gardening.jpg / manga.jpg / donghua.jpg / spiderman.jpg
+    game photos: minecraft.jpg / hay-day.jpg / chess.jpg
+    music: paranoid.mp3 / song-1.mp3 / song-2.mp3 / song-3.mp3
+    music covers: song-1.jpg / song-2.jpg / song-3.jpg
+  -->
+
+  <div class="page-loader" id="pageLoader" aria-label="Opening portfolio" role="status">
+    <div class="loader-paper">
+      <div class="loader-stamp">OPEN<br>NOTEBOOK</div>
+      <div class="loader-rule"></div>
+      <span class="loader-kicker">field notes / 001</span>
+      <strong>osihao<span>_</span></strong>
+      <span class="loader-status">turning the page<span class="loading-dots">...</span></span>
+    </div>
+  </div>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Back to top">
+        <span class="wordmark-mark">o/</span>
+        <span>osihao</span>
+      </a>
+      <div class="header-note">personal field notes <span>✦</span> dhaka, bd</div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about">about</a>
+        <a href="#work">work</a>
+        <a href="#favorites">favorites</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-grid" aria-labelledby="intro-title">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="dot"></span> issue no. 01 / still making things</div>
+          <h1 id="intro-title">Quietly building<br><em>useful things.</em></h1>
+          <p class="hero-lede">Server-side engineering, clean architecture, and small tools that make a real difference — built thoughtfully from the quiet side of the screen.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">see what I build <span>↘</span></a>
+            <a class="text-link" href="mailto:md.mursalinislam276@gmail.com">say hello <span>↗</span></a>
+          </div>
+          <div class="hero-meta">
+            <span><i>⌁</i> currently: learning Japanese</span>
+            <span><i>⌁</i> usually: playing Minecraft</span>
+          </div>
+        </div>
+
+        <div class="hero-art reveal reveal-delay-1">
+          <div class="hero-note card-shadow tilt-card">
+            <div class="paperclip" aria-hidden="true"></div>
+            <div class="tape tape-top-left"></div>
+            <div class="note-topline"><span>PROFILE / 001</span><span>✺</span></div>
+            <div class="portrait-frame">
+              <img src="pfp.png" alt="Portrait of Md. Mursalin" class="profile-photo">
+              <div class="portrait-fallback" aria-hidden="true">MM</div>
+              <span class="photo-caption">a person, mostly</span>
+            </div>
+            <div class="portrait-name">Md. Mursalin <small>osihao</small></div>
+            <div class="portrait-role">backend developer · gamer · plant keeper</div>
+            <p class="portrait-description">A quiet person who enjoys his own space, cares deeply about the things that matter, and likes building useful systems behind the scenes.</p>
+            <div class="stamp stamp-red">OPEN<br>TO<br>BUILD</div>
+            <div class="hand-note">“make it work,<br>then make it feel right.”</div>
+          </div>
+        </div>
+      </section>
+
+      <div class="ticker" aria-label="Interests">
+        <div class="ticker-track">
+          <span>backend systems</span><b>✦</b><span>ramen after midnight</span><b>✦</b><span>minecraft builds</span><b>✦</b><span>music on repeat</span><b>✦</b><span>backend systems</span><b>✦</b><span>ramen after midnight</span><b>✦</b><span>minecraft builds</span><b>✦</b><span>music on repeat</span><b>✦</b>
+        </div>
+      </div>
+
+      <section id="about" class="notebook-section section-grid">
+        <div class="section-label reveal">
+          <span class="section-number">01</span>
+          <span class="vertical-label">a little context</span>
+        </div>
+        <div class="section-content reveal reveal-delay-1">
+          <div class="section-heading">
+            <span class="eyebrow">about this person</span>
+            <h2>Behind the<br><em>quiet interface.</em></h2>
+          </div>
+          <div class="margin-scribble" aria-hidden="true">keep this part<br>of the page ✦</div>
+          <div class="about-layout">
+            <div class="about-copy">
+              <p>Most of my days are spent writing server-side software and exploring ideas in programming. I like the parts people don't always see: the APIs, databases, business logic, and little decisions that keep an application calm under pressure.</p>
+              <p>When I'm away from a screen, I read manga, tend to my garden, listen to music, and play games. Gardening is my reset button; music is the thing that makes a quiet room feel alive.</p>
+              <div class="language-poster">
+                <div class="language-poster-head"><span>LANGUAGE NOTES / 006</span><span>✦</span></div>
+                <div class="language-poster-title">words I carry<br><em>and words I'm learning.</em></div>
+                <div class="language-stamps" aria-label="Language skills">
+                  <span class="language-stamp native">Bangla <small>native</small></span>
+                  <span class="language-stamp native">Nepali <small>native</small></span>
+                  <span class="language-stamp fluent">English <small>fluent</small></span>
+                  <span class="language-stamp fluent">Hindi <small>fluent</small></span>
+                  <span class="language-stamp fluent">Urdu <small>fluent</small></span>
+                  <span class="language-stamp fluent">Arabic <small>fluent</small></span>
+                  <span class="language-stamp learning">日本語 <small>learning</small></span>
+                  <span class="language-stamp learning">中文 <small>learning</small></span>
+                  <span class="language-stamp wish">Spanish <small>wish to learn</small></span>
+                  <span class="language-stamp wish">Filipino <small>wish to learn</small></span>
+                </div>
+                <div class="language-poster-footer"><span>curiosity / always in progress</span><span>06.26</span></div>
+              </div>
+            </div>
+            <aside class="margin-quote">
+              <span class="quote-mark">“</span>
+              <span class="quote-highlight">If only our voices at night could reach the farthest edge of the world and time, instead of fading into air and dust…</span>
+              <span class="quote-by">— a thought kept close</span>
+            </aside>
+          </div>
+          <div class="skill-strip">
+            <span class="label-mono">things I know my way around</span>
+            <div class="tag-cloud">
+              <span>APIs</span><span>databases</span><span>REST</span><span>authentication</span><span>server architecture</span><span>Python</span><span>Node.js</span><span>MongoDB</span><span>scripting</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="notebook-section work-section section-grid">
+        <div class="section-label reveal">
+          <span class="section-number">02</span>
+          <span class="vertical-label">what I can do</span>
+        </div>
+        <div class="section-content reveal reveal-delay-1">
+          <div class="section-heading work-heading">
+            <div>
+              <span class="eyebrow">the workbench</span>
+              <h2>Useful by<br><em>design.</em></h2>
+            </div>
+            <p class="heading-note">No drag-and-drop shortcuts.<br>Just thoughtful, working software.</p>
+          </div>
+          <div class="service-list">
+            <article class="service-card">
+              <div class="service-index">01</div>
+              <div><h3>Discord bot development</h3><p>Custom bots, hosted end-to-end — moderation, economy systems, giveaways, music tools, and commands built around your community.</p><div class="service-tags"><span>Python</span><span>discord.py</span><span>MongoDB</span></div></div>
+              <span class="service-arrow">↗</span>
+            </article>
+            <article class="service-card">
+              <div class="service-index">02</div>
+              <div><h3>Website development</h3><p>Fast, responsive sites and full web apps with the frontend, backend, database, forms, and integrations all speaking to each other.</p><div class="service-tags"><span>HTML/CSS/JS</span><span>Node.js</span><span>APIs</span></div></div>
+              <span class="service-arrow">↗</span>
+            </article>
+            <article class="service-card">
+              <div class="service-index">03</div>
+              <div><h3>UI/UX & graphic design</h3><p>Interfaces and visual identities that look intentional — from an app's layout to the small icons and graphics that finish it.</p><div class="service-tags"><span>Figma</span><span>Photoshop</span><span>design systems</span></div></div>
+              <span class="service-arrow">↗</span>
+            </article>
+            <article class="service-card">
+              <div class="service-index">04</div>
+              <div><h3>Automation & scripting</h3><p>Small focused tools that turn repetitive work into one command, including bridges between systems without a convenient official API.</p><div class="service-tags"><span>Python</span><span>reverse engineering</span><span>data</span></div></div>
+              <span class="service-arrow">↗</span>
+            </article>
+          </div>
+          <div class="process-row">
+            <span class="label-mono">my usual process /</span>
+            <div class="process-step"><b>01</b><span>Discuss</span></div><i>→</i><div class="process-step"><b>02</b><span>Plan</span></div><i>→</i><div class="process-step"><b>03</b><span>Build</span></div><i>→</i><div class="process-step"><b>04</b><span>Deliver</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="favorites" class="notebook-section section-grid favorites-section">
+        <div class="section-label reveal">
+          <span class="section-number">03</span>
+          <span class="vertical-label">the good stuff</span>
+        </div>
+        <div class="section-content reveal reveal-delay-1">
+          <div class="section-heading">
+            <span class="eyebrow">collected favorites</span>
+            <h2>Small things that<br><em>keep me curious.</em></h2>
+          </div>
+          <div class="favorite-grid">
+            <article class="favorite-card favorite-ramen tilt-card">
+              <div class="tape tape-top-right"></div>
+              <div class="favorite-image"><img src="ramen.jpg" alt="A bowl of ramen"><div class="image-fallback">RAMEN<br>PHOTO</div><span class="stamp stamp-coral">LOVE</span></div>
+              <div class="favorite-content"><div class="card-kicker">01 / comfort food</div><h3>Ramen</h3><p>Pure comfort. Ginger-chicken, extra spicy, with a soft-boiled egg and cilantro.</p><div class="card-detail">best served: anywhere, honestly</div></div>
+            </article>
+            <article class="favorite-card favorite-garden tilt-card">
+              <div class="tape tape-top-left"></div>
+              <div class="favorite-image"><img src="gardening.jpg" alt="Flowers in a garden"><div class="image-fallback">GARDEN<br>PHOTO</div><span class="stamp stamp-green">RESET</span></div>
+              <div class="favorite-content"><div class="card-kicker">02 / off-screen</div><h3>Gardening</h3><p>The aroma of flowers instantly calms me. Anemones are the current favorite.</p><div class="card-detail">palette: red + black</div></div>
+            </article>
+            <article class="favorite-card favorite-manga tilt-card">
+              <div class="tape tape-bottom-left"></div>
+              <div class="favorite-image"><img src="manga.jpg" alt="Manga volumes"><div class="image-fallback">MANGA<br>PHOTO</div><span class="stamp stamp-blue">READING</span></div>
+              <div class="favorite-content"><div class="card-kicker">03 / quiet hours</div><h3>Manga</h3><p>Adventure, mystery, slice of life. I'd rather read manga than watch anime.</p><div class="card-detail">favorites: Your Name · Your Lie in April · A Silent Voice</div></div>
+            </article>
+            <article class="favorite-card favorite-reverse tilt-card">
+              <div class="tape tape-top-right"></div>
+              <div class="favorite-image"><img src="donghua.jpg" alt="Donghua image"><div class="image-fallback">Donghua<br>image</div><span class="stamp stamp-blue">WATCHING</span></div>
+              <div class="favorite-content"><div class="card-kicker">04 / animated worlds</div><h3>Donghua</h3><p>I enjoy donghua for its beautiful worlds, long-form stories, powerful characters, and unforgettable journeys.</p><div class="card-detail">favorites: Soul Land · BTTH</div></div>
+            </article>
+            <article class="favorite-card favorite-modding tilt-card">
+              <div class="tape tape-top-left"></div>
+              <div class="favorite-image"><img src="spiderman.jpg" alt="Andrew Garfield"><div class="image-fallback">Spiderman<br>image</div><span class="stamp stamp-coral">FAV</span></div>
+              <div class="favorite-content"><div class="card-kicker">05 / favorite hero</div><h3>Spider-Man</h3><p>Spider-Man has always been my favorite superhero, especially Andrew Garfield’s version. I like the emotional depth, humor, movement, and personal struggle he brings to the character.</p><div class="card-detail">Favorite portrayal: Andrew Garfield</div></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="notebook-section section-grid games-section">
+        <div class="section-label reveal">
+          <span class="section-number">04</span>
+          <span class="vertical-label">after work hours</span>
+        </div>
+        <div class="section-content reveal reveal-delay-1">
+          <div class="section-heading split-heading">
+            <div><span class="eyebrow">save points</span><h2>Games I<br><em>come back to.</em></h2></div>
+            <span class="controller-doodle" aria-hidden="true">⌁⌁⌁<br>◖ ◗</span>
+          </div>
+          <div class="game-shelf">
+            <article class="game-card">
+              <div class="tape tape-top-left"></div>
+              <div class="game-cover minecraft-covr"><img class="game-photo" src="minecraft.jpg" alt="Minecraft game photo"><span class="cover-pixel">▦</span><small>BUILD / EXPLORE</small><strong>MINE<br>CRAFT</strong></div>
+              <div class="game-info"><div class="game-top"><h3>Minecraft</h3><span class="stamp stamp-red tiny-stamp">FAV</span></div><p>Solo survival, building, and exploring. Not really here for PvP.</p><div class="game-meta"><span>HAOTIANxT</span><span>9+ years</span></div><div class="game-tags"><span>builder</span><span>explorer</span><span>redstoner</span></div></div>
+            </article>
+            <article class="game-card">
+              <div class="tape tape-top-right"></div>
+              <div class="game-cover hayday-cover"><img class="game-photo" src="hay-day.jpg" alt="Hay Day game photo"><span class="cover-sun">☼</span><small>GROW / DERBY</small><strong>HAY<br>DAY</strong></div>
+              <div class="game-info"><div class="game-top"><h3>Hay Day</h3><span class="stamp stamp-yellow tiny-stamp">DAILY</span></div><p>A daily routine, with a slightly unreasonable focus on completing derby tasks fast.</p><div class="game-meta"><span>SkyLine</span><span>5+ years</span></div><div class="game-tags"><span>derby expert</span><span>event hunter</span></div></div>
+            </article>
+            <article class="game-card">
+              <div class="tape tape-top-left"></div>
+              <div class="game-cover chess-cover"><img class="game-photo" src="chess.jpg" alt="Chess game photo"><span class="chess-piece">♞</span><small>THINK / LOSE / PLAY</small><strong>CHESS</strong></div>
+              <div class="game-info"><div class="game-top"><h3>Chess</h3><span class="stamp stamp-blue tiny-stamp">OFTEN</span></div><p>Played almost every day. An average (not so) player who never gets tired of it.</p><div class="game-meta"><span>average • pretty average</span><span>8+ years</span></div><div class="game-tags"><span>beginner (!!)</span></div></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="mixtape-section">
+        <div class="mixtape-tape tape-top-center"></div>
+        <div class="mixtape-copy">
+          <span class="eyebrow">press play</span>
+          <h2>A little<br><em>soundtrack.</em></h2>
+          <p>Music is spiritual nourishment. Here are three local tracks for the late-night tab.</p>
+          <button class="music-toggle" type="button" id="ambientToggle" aria-pressed="false"><span class="speaker-icon">◖))</span> play ambient loop</button>
+          <audio id="ambientAudio" loop preload="none"><source src="paranoid.mp3" type="audio/mpeg"></audio>
+        </div>
+        <div class="mixtape-poster">
+          <div class="poster-label">MIXTAPE / 03</div>
+          <div class="poster-title">NIGHT<br>NOTES</div>
+          <div class="poster-scribble">listen slowly<br>★ ★ ★</div>
+          <div class="track-list">
+            <div class="track" data-track="track1">
+              <div class="track-visual"><img src="song-1.jpg" alt="Cover image for Parano"><span class="track-cover-fallback">01</span><button class="track-play" type="button" aria-label="Play track one">▶</button></div>
+              <div class="track-copy"><span>01 / frozy and DDB</span><strong>Parano</strong></div>
+              <span class="track-time">03:12</span>
+              <audio id="track1" preload="none"><source src="song-1.mp3" type="audio/mpeg"></audio>
+            </div>
+            <div class="track" data-track="track2">
+              <div class="track-visual"><img src="song-2.jpg" alt="Cover image for O Mon"><span class="track-cover-fallback">02</span><button class="track-play" type="button" aria-label="Play track two">▶</button></div>
+              <div class="track-copy"><span>02 / Ishan Mitra</span><strong>O Mon</strong></div>
+              <span class="track-time">04:08</span>
+              <audio id="track2" preload="none"><source src="song-2.mp3" type="audio/mpeg"></audio>
+            </div>
+            <div class="track" data-track="track3">
+              <div class="track-visual"><img src="song-3.jpg" alt="Cover image for Dead to Me"><span class="track-cover-fallback">03</span><button class="track-play" type="button" aria-label="Play track three">▶</button></div>
+              <div class="track-copy"><span>03 / Lox chatterbox</span><strong>Dead to Me</strong></div>
+              <span class="track-time">03:46</span>
+              <audio id="track3" preload="none"><source src="song-3.mp3" type="audio/mpeg"></audio>
+            </div>
+          </div>
+          <div class="poster-footer"><span></span><span>osihao.fm</span></div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="contact-inner">
+          <div class="stamp stamp-outline">LET'S<br>MAKE<br>IT REAL</div>
+          <div class="contact-copy">
+            <span class="eyebrow">last page</span>
+            <h2>Have a project<br><em>in mind?</em></h2>
+            <p>Tell me what you're building. We'll talk through what it needs — no jargon required.</p>
+            <a class="button button-light" href="https://wa.me/qr/7REZYQYH6NMGA1">get in touch <span>↗</span></a>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:md.mursalinislam276@gmail.com"><span>email</span><strong>md.mursalinislam276@gmail.com</strong><i>↗</i></a>
+            <a href="https://discord.gg/438N7eMrjW" target="_blank" rel="noreferrer"><span>discord</span><strong>@osihao</strong><i>↗</i></a>
+            <a href="https://www.facebook.com/share/17yJR3KpLW/" target="_blank" rel="noreferrer"><span>facebook</span><strong>say hello</strong><i>↗</i></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Md. Mursalin / osihao</span>
+      <span>made with notes, patience & a little music</span>
+      <a href="#top">back to top ↑</a>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
